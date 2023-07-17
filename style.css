@@ -1,0 +1,213 @@
+a{
+  text-decoration: none;
+  color:whitesmoke;
+  padding-right: 25px;
+}
+
+h2{
+  color: whitesmoke;
+  margin-left: 20px;
+}
+#text1{
+
+  color: black;
+  padding-top: 150px;
+}
+#text2{
+  color: black;
+  padding-top: 20px;
+  
+}
+
+#title{
+  color: white;
+}
+
+.header{
+  padding-right: 25px;
+  position: fixed;
+  margin-right: auto;
+  width: 100%;
+  display: flex;
+  background: black;
+  justify-content: space-between;
+}
+
+nav{
+  width: 350px;
+  height: 60px;
+}
+
+#navlink{
+  margin-top: 20px;
+}
+
+#Home{
+  
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 800px;
+  text-align: center;
+}
+#Home h1{
+  padding-top: 300px;
+   color: black;
+   text-shadow: 2px 2px plum;
+   font-size: 50px;
+}
+
+#Bio article h1{
+  letter-spacing: 0.5px;
+  font-size: 1.5em;
+  margin-bottom: 2%;
+}
+#Bio
+{
+  padding-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-bottom: 250px;
+}
+#Bio article
+{
+  padding-left: 50px;  
+}
+#Bio h1
+{
+  padding-left: 50px;  
+}
+#Bio article p
+{
+  padding-left: 50px; 
+  color: black; 
+}
+img{
+  height: 500px;
+  width: 400px;
+  border-radius: 50%;
+}
+.link-button
+{
+  padding-left: 20px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 30px 5px;
+  cursor: pointer;
+  background-color:rgba(240, 81, 54); 
+  color: white;
+  border: 2px solid rgba(240, 81, 54);
+  border-radius: 2%;
+}
+
+#portfolio
+{
+  margin-top: 0%;
+  padding-top: 2%;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-bottom: 17%;
+  margin-bottom: 0%;
+  background-color: white;;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#portfolio h2,p{
+  color: white;
+}
+hr{
+  width: 500px;
+  margin-bottom: 20px;
+}
+#portfolio h2{
+  padding-top: 70px; 
+  color: black;
+
+}
+#portfolio #first{
+  padding-top: 20px;
+  padding-bottom: 25px;
+  color: black;  
+}
+.port-div
+{
+  display: flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+  padding-top: 50px;
+}
+.port-div h4{
+  color: white;
+  font-size: 25px;
+}
+.port-div p{
+  color: white;
+  padding-bottom: 50px;
+}
+.small-icon
+{
+  height:50px;
+  width: 50px;
+  padding-bottom: 12%;
+}
+.port-div article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 250px;
+  width: 250px;
+  margin: 50px 0px;
+  margin-right: 0px;
+}
+#Skills{
+  background: black;
+  display: flex;
+  height: 600px;
+  color: aliceblue;
+  
+  padding-top:150px;
+  padding-left: 450px;
+
+ 
+}
+#LAG{
+  background: black;
+  display: block;
+  height: 600px;
+  color: white;
+  text-align: left;
+  padding-left:100px;
+ 
+}
+#TECHNICAL{
+  background: black;
+  display: block;
+  height: 600px;
+  color: white;
+
+}
+#Contact{
+   
+  background:honeydew;
+  height: 300px;
+  color: black;
+  text-align: center;
+  padding-top: 30px;
+}
